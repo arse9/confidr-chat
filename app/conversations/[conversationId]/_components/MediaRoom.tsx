@@ -1,8 +1,6 @@
 import { useUser } from "@clerk/nextjs";
 import { Loader2 } from "lucide-react";
 import { useEffect, useState } from "react";
-import { LiveKitRoom, VideoConference } from '@livekit/components-react'
-import "@livekit/components-styles"
 
 interface MediaRoomProps {
     chatId: string,
@@ -46,18 +44,7 @@ const MediaRoom = ({
     }
 
 
-    return (
-        <LiveKitRoom
-            data-lk-theme="default"
-            serverUrl={process.env.NEXT_PUBLIC_LIVEKIT_URL}
-            token={token}
-            connect={true}
-            video={video}
-            audio={audio}
-        >
-            <VideoConference />
-        </LiveKitRoom>
-    );
+
 }
 
 export default MediaRoom;
