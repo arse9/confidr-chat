@@ -13,7 +13,7 @@
     "@clerk/nextjs": "4.29.9",
     "@emoji-mart/data": "^1.1.2",
     "@emoji-mart/react": "^1.1.1",
-    "@livekit/components-react": "^2.0.0",
+    "@livekit/components-react": "^1.0.9",
     "@livekit/components-styles": "^2.0.2",
     "@prisma/client": "5.10.2",
     "@radix-ui/react-avatar": "^1.0.4",
